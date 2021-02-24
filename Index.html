@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>www.kidszone.com</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/foundation/5.0.2/css/foundation.css'>
+    <link href="Style.css" rel="stylesheet" />
+    <!--<link rel="stylesheet" href="style.css">-->
+    <script src="Functionjavascript.js"></script>
+    
+
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="Logod.png" style="height:150px;width:200px"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <div class="medium-4  columns">
+            <div class="cart">
+                <h1>Cart items</h1>
+                <div class="row">
+                    <div class="medium-6 columns">
+                        <button class="tiny secondary" id="clear">Clear the cart</button>
+                    </div>
+                    <div class="medium-6 columns">
+                        <button class="tiny disabled" title="Work in progress">Checkout</button>
+                    </div>
+                </div>
+                <div id="cartItems">Loading cart...</div>
+                Total price: <strong id="totalPrice">0 $</strong>
+            </div>
+
+        </div>
+        <div class="medium-8 columns">
+            <h1>Products List</h1>
+            <div class="products">
+                <div class="product medium-4 columns" data-name="Vivobook" data-price="1500" data-id="0">
+                    <img src="AUDI-TT-RS-Car-for-kids-SendFlowers.pk_.jpg" />
+                    <!--<img src="https://webdevtrick.com/wp-content/uploads/vivobook.jpg" alt="" />-->
+                    <h3>Kids Car</h3>
+                    <input type="number" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+                <div class="product medium-4 columns" data-name="Surface Pro" data-price="850" data-id="1">
+                    <img src="41I66FYZ-fL.jpg" />
+                    <!--<img src="https://webdevtrick.com/wp-content/uploads/surface.jpg" alt="" />-->
+                    <h3>Baby Shoes</h3>
+                    <input type="number" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+                <div class="product medium-4 columns" data-name="Predator" data-price="250000" data-id="2">
+                    <img src="0bce0c7348f3365d2bda112e09f872b8.jpg" />
+                    <!--<img src="https://webdevtrick.com/wp-content/uploads/predator.jpg" alt="" />-->
+                    <h3>Baby Girl Shoes</h3>
+                    <input type="number" class="count" value="1" />
+                    <button class="tiny">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+    <!--Footer-->
+
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img class="logo" src="Logod.png" style="height:150px;width:200px" />
+                    <hr class="light" />
+                    <p class="lead text-justify">
+                        Our customer service agents are there to help you daily between 9am to 11pm. Please have your order number handy for faster service </p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>Contact Us</h5>
+                    <hr class="light" />
+                    <p class="lead text-justify">
+                        <i class="fa fa-map-marker"></i> &nbsp;Address: 142-Main Quaid-e-Azam Industrial <br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Estate, Lahore-54770 Pakistan<br /><br />
+                        <i class="fa fa-phone fa-flip-horizontal "></i> &nbsp;Contact: +92(42) 111 152 152<br /><br />
+                        <i class="fas fa-globe"></i> &nbsp;Website: www.kidszone.com.pk
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light" />
+                    <h5>History</h5>
+                    <hr class="light" />
+                    <p class="lead text-justify">
+                        Focuses on providing footwear with top notch quality for its customers around the world.Our mission is to give you the best mix of  sneaker products from the classics like Nike, Jordan, Balenciaga, Adidas, Toms, Gucci & Vans   </p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100" />
+                    <h6>&copy; Copyright 2020 Marhaba.All Rights Reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/template" id="cartT">
+        <% _.each(items, function (item) { %>
+        <div class="panel">
+            <h3> <%= item.name %> </h3>  <span class="label">
+                <%= item.count %> piece<% if(item.count > 1)
+                {%>s
+                <%}%> for <%= item.total %>₹
+            </span>
+        </div>
+        <% }); %>
+    </script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js'></script>
+    <script src="function.js"></script>
+
+</body>
+</html>
+
